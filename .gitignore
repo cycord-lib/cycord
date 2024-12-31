@@ -1,0 +1,82 @@
+*.c
+.env
+
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.virtualenv/
+
+# Cache and log files
+*.log
+*.pot
+*.py[co]
+*.cache
+*.coverage
+*.egg
+*.eggs
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution and package files
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pyenv local Python version file
+.python-version
+
+# IDE/editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swns
+*.swr
+
+# Test and debug output
+.coverage
+.tox/
+.nox/
+
+# Machine-specific files
+*.DS_Store
+*.mo
+*.pot
+*.exe
+*.dll
+*.so
+*.dylib
+*.snap
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+*.project
+*.classpath
+
+# Metadata and other machine-specific files
+*.iml
+*.ipr
+*.iws
