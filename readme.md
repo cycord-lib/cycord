@@ -1,6 +1,8 @@
 # Cycord - A High-Performance Cython Wrapper for the Discord API
+> [!NOTE]
+> This library is currently unfinished and is not yet production ready. Join the [discord](https://discord.gg/xbZMHJjrTR) for updates.
 ## Overview
-Cycord is a high-performance Python library built with Cython that provides an easy and efficient interface to the Discord API.
+Cycord is a high-performance library built with Cython that provides an easy and efficient interface to the Discord API.
 
 Designed to be a drop-in replacement for [discord.py](https://github.com/Rapptz/discord.py), Cycord allows you to effortlessly boost the performance of your existing bots.
 
@@ -38,5 +40,8 @@ bot.run("BOT_TOKEN")
 
 ## Installation
 ```
-git clone 
+git clone https://github.com/cycord-lib/cycord && cd cycord
+python -m pip install -r requirements.txt
+python build.py
 ```
+Running `build.py` will automatically compile the source code into a `.so` file and place it in your site-packages directory, along with the stub files for Python type hinting. (In other words you can just use the module normally with `import cycord` after running build.py)
