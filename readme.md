@@ -30,8 +30,6 @@ bot.run("BOT_TOKEN")
 ## Key Features
 - **Optimized for Performance**: Cycord is designed to be much faster and more efficient than traditional Python libraries, making it ideal for high-performance Discord bots. By using Cython, it reduces overhead and speeds up execution.
 
-- **HTTP/3 Support with QUIC**: Cycord supports HTTP/3, the latest version of the HTTP protocol, which includes QUIC for faster, more reliable network connections. This improves latency and speeds up communication with Discord's servers.
-
 - **Efficient Data Compression with Zstd**: Cycord uses zstd for streaming compression. This reduces the amount of memory used and speeds up the handling of large amounts of data, especially useful for bots handling many messages or events.
 
 - **Cython-Powered**: The core of Cycord is written in Cython, which compiles Python code to C for significant speed improvements. This allows Cycord to perform faster than pure Python libraries, without sacrificing the ease of use.
